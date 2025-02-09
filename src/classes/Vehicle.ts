@@ -15,14 +15,18 @@ class Vehicle implements Driveable {
 
   // Method to print vehicle details
   printDetails(): void {
+    console.log('_______________________________________________________');
     console.log(`Vehicle started: ${this.started}`);
     console.log(`Vehicle current speed: ${this.currentSpeed} mph`);
+    console.log('_______________________________________________________');
   }
 
   // Method to start the vehicle
   start(): void {
     this.started = true;
+    console.log('_______________________________________________________');
     console.log('Vehicle started');
+    console.log('_______________________________________________________');
   }
 
   // Method to accelerate the vehicle
@@ -30,9 +34,13 @@ class Vehicle implements Driveable {
     // Check if the vehicle is started
     if (this.started) {
       this.currentSpeed += change;
+      console.log('_______________________________________________________');
       console.log(`Vehicle accelerated to ${this.currentSpeed} mph`);
+      console.log('_______________________________________________________');
     } else {
+      console.log('_______________________________________________________');
       console.log('Start the vehicle first');
+      console.log('_______________________________________________________');
     }
   }
 
@@ -41,9 +49,13 @@ class Vehicle implements Driveable {
     // Check if the vehicle is started
     if (this.started) {
       this.currentSpeed -= change;
+      console.log('_______________________________________________________');
       console.log(`Vehicle decelerated to ${this.currentSpeed} mph`);
+      console.log('_______________________________________________________');
     } else {
+      console.log('_______________________________________________________');
       console.log('Start the vehicle first');
+      console.log('_______________________________________________________');
     }
   }
 
@@ -51,16 +63,22 @@ class Vehicle implements Driveable {
   stop(): void {
     this.currentSpeed = 0;
     this.started = false;
+    console.log('_______________________________________________________');
     console.log('Vehicle stopped');
+    console.log('_______________________________________________________');
   }
 
   // Method to turn the vehicle
   turn(direction: string): void {
     // Check if the vehicle is started
     if (this.started) {
+      console.log('_______________________________________________________');
       console.log(`Vehicle turned ${direction}`);
+      console.log('_______________________________________________________');
     } else {
+      console.log('_______________________________________________________');
       console.log('Start the vehicle first');
+      console.log('_______________________________________________________');
     }
   }
 
@@ -68,9 +86,13 @@ class Vehicle implements Driveable {
   reverse(): void {
     // Check if the vehicle is started
     if (this.started) {
+      console.log('_______________________________________________________');
       console.log('Vehicle reversed');
+      console.log('_______________________________________________________');
     } else {
+      console.log('_______________________________________________________');
       console.log('Start the vehicle first');
+      console.log('_______________________________________________________');
     }
   }
 }

@@ -52,6 +52,7 @@ class Car extends Vehicle {
     super.printDetails();
 
     // Print details of the Car class
+    console.log('_______________________________________________________');
     console.log(`VIN: ${this.vin}`);
     console.log(`Color: ${this.color}`);
     console.log(`Make: ${this.make}`);
@@ -73,6 +74,7 @@ class Car extends Vehicle {
     console.log(
       `Wheel 4: ${this.wheels[3].getDiameter} inch with a ${this.wheels[3].getTireBrand} tire`
     );
+    console.log('_______________________________________________________');
   }
 }
 

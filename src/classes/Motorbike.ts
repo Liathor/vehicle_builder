@@ -49,6 +49,7 @@ class Motorbike extends Vehicle {
   }
   // Implement the wheelie method
   wheelie(): void {
+    console.log('_______________________________________________________');
     console.log(`Motorbike ${this.make} ${this.model} is doing a wheelie!`);
   }
 
@@ -58,6 +59,7 @@ class Motorbike extends Vehicle {
     super.printDetails();
 
     // Print details of the Motorbike class
+    console.log('_______________________________________________________');
     console.log(`VIN: ${this.vin}`);
     console.log(`Color: ${this.color}`);
     console.log(`Make: ${this.make}`);
@@ -73,6 +75,7 @@ class Motorbike extends Vehicle {
     console.log(
       `Wheel 2: ${this.wheels[1].getDiameter} inch with a ${this.wheels[1].getTireBrand} tire`
     );
+    console.log('_______________________________________________________');
   }
 }
 
