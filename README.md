@@ -1,22 +1,34 @@
-# User Story
-AS a developer
-I WANT to update an existing application to include additional vehicle types
-SO THAT I am able to comprehend and work with existing code bases.
-# Acceptance Criteria
-GIVEN a command-line application that accepts user input
-WHEN I am prompted to create a new vehicle or existing vehicle
-THEN I can choose between the two options DONE
-WHEN I am prompted to choose the vehicle type during creation
-THEN I can choose between car, truck, and motorbike DONE
-WHEN I am prompted for details about the vehicle
-THEN I can enter the vehicle information DONE
-WHEN I have entered all the vehicle information
-THEN I can use the created vehicle DONE
-WHEN I select an existing vehicle
-THEN I can use the selected existing vehicle DONE
-WHEN I have created a new vehicle or selected an existing vehicle
-THEN I can perform actions with that vehicle DONE
-WHEN I perform an action with a vehicle
-THEN I see the result of the action in the command-line DONE
-WHEN I complete the process of performing an action
-THEN I can perform additional actions until I choose to exit DONE
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
+# Vehicle Builder
+
+## Description
+This application allows a user to build cars, trucks or motorbikes in a database, and then perform different actions with those vehicles.
+
+## Table Of Contents
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [License](#license)
+4. [Contribution Guidelines](#contribution)
+5. [Tests](#tests)
+6. [Questions](#questions)
+
+## Installation
+Install the files and open the folder in a terminal. Run 'npm i' to install the dependencies if this is your first time running the application. Then run 'npm start' in the terminal to run the application.
+
+## Usage
+Open the folder in a terminal, and run 'npm start'. A variety of selecters will be made available. You can navigate the options with the up and down key, and hit enter to select the option.
+
+## License
+Distributed under the MIT. Visit [MIT](https://opensource.org/licenses/MIT) for more information.
+
+## Contribution Guidelines
+None
+
+## Tests
+None
+
+## Questions
+Feel free to reach out to me if you have any questions, or if you'd like to find out what else I've worked on. My details are as follows:  
+  Github: https://github.com/Liathor  
+  Email: dyermisha@gmail.com  
