@@ -51,6 +51,7 @@ class Motorbike extends Vehicle {
   wheelie(): void {
     console.log('_______________________________________________________');
     console.log(`Motorbike ${this.make} ${this.model} is doing a wheelie!`);
+    console.log('_______________________________________________________');
   }
 
   // Override the printDetails method from the Vehicle class
