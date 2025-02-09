@@ -19,6 +19,9 @@ Install the files and open the folder in a terminal. Run 'npm i' to install the 
 ## Usage
 Open the folder in a terminal, and run 'npm start'. A variety of selecters will be made available. You can navigate the options with the up and down key, and hit enter to select the option.
 
+You can also view the video at the link below for usage instruction:   
+https://drive.google.com/file/d/1uPbXEunam6Qsg_ACme-LiQi1OxydG6U5/view
+
 ## License
 Distributed under the MIT. Visit [MIT](https://opensource.org/licenses/MIT) for more information.
 
