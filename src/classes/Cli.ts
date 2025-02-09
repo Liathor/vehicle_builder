@@ -247,6 +247,10 @@ class Cli {
         },
       ])
       .then((answers) => {
+        const wheels = [
+          new Wheel(parseInt(answers.frontWheelDiameter), answers.frontWheelBrand),
+          new Wheel(parseInt(answers.rearWheelDiameter), answers.rearWheelBrand)
+        ];
         const motorbike = new Motorbike(
           Cli.generateVin(),
           answers.color,
@@ -255,7 +259,7 @@ class Cli {
           parseInt(answers.year),
           parseInt(answers.weight),
           parseInt(answers.topSpeed),
-          []
+          wheels
         );
         // push the motorbike to the vehicles array
         this.vehicles.push(motorbike);
