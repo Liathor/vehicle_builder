@@ -57,7 +57,7 @@ class Motorbike extends Vehicle {
     // Call the printDetails method of the parent class, Vehicle
     super.printDetails();
 
-    // Print details of the Car class
+    // Print details of the Motorbike class
     console.log(`VIN: ${this.vin}`);
     console.log(`Color: ${this.color}`);
     console.log(`Make: ${this.make}`);
